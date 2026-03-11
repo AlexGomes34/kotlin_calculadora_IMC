@@ -192,17 +192,17 @@ fun CalculadoraIMCScreen(modifier: Modifier = Modifier) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     if (imc < 18.5){
-                        Text(text = "$pou Abaixo do peso", fontSize = 27.sp, color = colorResource(R.color.gozo), fontWeight = FontWeight.Bold)
+                        Text(text = "$pou Abaixo do peso", fontSize = 27.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     }else if (imc > 18.5 && imc < 25){
-                        Text(text = "$pou Peso ideal", fontSize = 27.sp, color = colorResource(R.color.gozo), fontWeight = FontWeight.Bold)
+                        Text(text = "$pou Peso ideal", fontSize = 27.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     }else if (imc >= 25 && imc < 30){
-                        Text(text = "$pou Levemente acima do peso", fontSize = 27.sp, color = colorResource(R.color.gozo), fontWeight = FontWeight.Bold)
+                        Text(text = "$pou Levemente acima do peso", fontSize = 27.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     }else if (imc >= 30 && imc < 35){
-                        Text(text = "$pou Obesidade grau |", fontSize = 27.sp, color = colorResource(R.color.gozo), fontWeight = FontWeight.Bold)
+                        Text(text = "$pou Obesidade grau |", fontSize = 27.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     }else if (imc >= 35 && imc < 40){
-                        Text(text = "$pou Obesidade grau ||", fontSize = 27.sp, color = colorResource(R.color.gozo), fontWeight = FontWeight.Bold)
+                        Text(text = "$pou Obesidade grau ||", fontSize = 27.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     }else if(imc > 40){
-                        Text(text = "$pou Obesidade grau |||", fontSize = 27.sp, color = colorResource(R.color.gozo), fontWeight = FontWeight.Bold)
+                        Text(text = "$pou Obesidade grau |||", fontSize = 27.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     }
                 }
             }
